@@ -7,7 +7,7 @@ const Projects = () => {
       <div className="projects-content">
         <h1 className="projects-title">Projects</h1>
         <ProjectsList/>
-        <a className="github-link" href="https://github.com/frknn">See more in my GitHub</a>
+        <a target="_blank" rel="noopener noreferrer" className="github-link" href="https://github.com/frknn">See more in my GitHub</a>
       </div>
     </section>
   )
