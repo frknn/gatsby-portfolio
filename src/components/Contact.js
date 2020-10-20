@@ -15,10 +15,12 @@ const Contact = () => {
         </div>
       </div>
       <form name="message" method="POST" netlify>
+      <input type="hidden" name="form-name" value="message" />
         <label htmlFor="Your message: ">
           <input type="text" name="visitorMessage" />
           <button type="submit">Send</button>
         </label>
+        <p>bruh:D</p>
       </form>
     </section>
   )
