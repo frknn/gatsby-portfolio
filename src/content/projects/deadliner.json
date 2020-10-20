@@ -1,0 +1,12 @@
+{
+  "title": "Deadliner API",
+  "desc": "REST API for a project management app. Has 4 types of users; creators, managers, developers, admin. Creators can create new projects and assign them to managers. Managers can create tasks for that project and assign them to developers and devs work on that tasks. Hasn't deployed yet.",
+  "demoLink": "",
+  "codeLink": "https://github.com/frknn/deadliner-api",
+  "tags": [
+    "NodeJS",
+    "ExpressJS",
+    "Postgre SQL",
+    "Sequelize ORM"
+  ]
+}

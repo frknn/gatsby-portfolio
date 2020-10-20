@@ -1,0 +1,10 @@
+{
+  "title": "Task Manager",
+  "desc": "You can create tasks with a description, importance and deadline and it's categorized as daily, weekly or monthly, according to the deadline you set. You can set daily or monthly goals, keep track of your recent activities like creating, deleting, and completing tasks as logs, quickly display all of your tasks and create simple to-do lists for tasks that doesn't require any deadline and needs to be completed rapidly.",
+  "demoLink": "https://frknn.github.io/ng-material-task-manager/",
+  "codeLink": "https://github.com/frknn/ng-material-task-manager",
+  "tags": [
+    "Angular",
+    "Angular Material"
+  ]
+}

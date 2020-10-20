@@ -1,0 +1,26 @@
+backend:
+  name: git-gateway
+  branch: master
+
+media_folder: static/images
+public_folder: /images
+
+collections:
+  - name: "project"
+    label: "Project"
+    folder: "src/content/projects"
+    extension: "json"
+    format: "json"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}_{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Project Description", name: "desc", widget: "text" }
+      - {
+          label: "Demo Link",
+          name: "demoLink",
+          widget: "string",
+          required: false,
+        }
+      - { label: "Code Link", name: "codeLink", widget: "string" }
+      - { label: "Tags", name: "tags", widget: "list" }

@@ -1,0 +1,11 @@
+{
+  "title": "Devcamper API",
+  "desc": "Udemy code along project. REST API for DevCamper app which is a bootcamp directory website. You can list software development bootcamps, courses belong to them and reviews about them. Including authentication and authorization.",
+  "demoLink": "https://devcamper-api.herokuapp.com/",
+  "codeLink": "https://github.com/frknn/devcamper-node-api",
+  "tags": [
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB"
+  ]
+}

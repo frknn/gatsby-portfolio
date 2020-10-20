@@ -1,0 +1,11 @@
+{
+  "title": "Muha1",
+  "desc": "A social media mobile app that focuses on news shared directly by people close to events. You can sign up, view news, comment and share news-worthy events you come across. Has no APK yet but if you want to try, you can fork and run the ionic app from Github.",
+  "demoLink": "",
+  "codeLink": "https://github.com/frknn/ionic-news",
+  "tags": [
+    "Angular",
+    "Firebase",
+    "Ionic"
+  ]
+}

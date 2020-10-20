@@ -1,0 +1,13 @@
+{
+  "title": "TripShare",
+  "desc": "The first project I have done when I get involved with web development. A website for people to share their trip memories and advices. You can sign up, share your article and after admin approval, it will show up in home page.",
+  "demoLink": "https://trip-share-heroku.herokuapp.com/",
+  "codeLink": "https://github.com/frknn/tripShare",
+  "tags": [
+    "HTML",
+    "CSS",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB"
+  ]
+}
