@@ -14,13 +14,13 @@ const Contact = () => {
           <a href="https://github.com/frknn"><FaGithubSquare className="contact-links__square-link" /></a>
         </div>
       </div>
-      <form name="message" method="POST" netlify>
+      <form name="message" method="POST" data-netlify="true">
       <input type="hidden" name="form-name" value="message" />
         <label htmlFor="Your message: ">
           <input type="text" name="visitorMessage" />
           <button type="submit">Send</button>
         </label>
-        <p>bruh:D</p>
+        <p>bruh:D:D</p>
       </form>
     </section>
   )
