@@ -17,8 +17,8 @@ const ProjectCard = ({ project }) => {
         </div>
       </div>
       <div className="project-card__links">
-        <a target="_blank" rel="noopener noreferrer" className={`project-card__demo-link ${demoLink ? '' : 'project-card__demo-link--disabled'}  `} href={demoLink ? demoLink : '#'}>Demo</a>
-        <a target="_blank" rel="noopener noreferrer" className={`project-card__code-link ${codeLink ? '' : 'project-card__code-link--disabled'}  `} href={codeLink ? codeLink : '#'}>Github</a>
+        <a target={demoLink && "_blank"} rel={demoLink && "noopener noreferrer"} className={`project-card__demo-link ${demoLink ? '' : 'project-card__demo-link--disabled'}  `} href={demoLink ? demoLink : '#'}>Demo</a>
+        <a target={codeLink && "_blank"} rel={codeLink && "noopener noreferrer"} className={`project-card__code-link ${codeLink ? '' : 'project-card__code-link--disabled'}  `} href={codeLink ? codeLink : '#'}>Github</a>
       </div>
     </div>
   )
