@@ -6,8 +6,15 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: 'Furkan Setbaşı',
+    author: 'Furkan Setbaşı'
+  },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
@@ -26,6 +33,13 @@ module.exports = {
         name: `projects`,
         path: `${__dirname}/src/content/projects`,
         ignore: [`**/\.*`], // ignore files starting with a dot
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
       },
     },
     `gatsby-plugin-netlify-cms`,

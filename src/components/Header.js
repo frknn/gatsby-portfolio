@@ -10,7 +10,7 @@ const Header = () => {
   return (
     <header className="header">
       <h1 className="header__title">Furkan Setbaşı</h1>
-      <button className="header__hamburger-btn" onClick={toggleNav}>
+      <button aria-label="Hamburger Button" className="header__hamburger-btn" onClick={toggleNav}>
         <span className={`header__hamburger-btn-line ${open ? 'header__hamburger-btn-line--active' : ''}`}></span>
       </button>
       <nav className={`header__nav ${open ? 'header__nav--active' : ''}`}>

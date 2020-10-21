@@ -1,16 +1,31 @@
 import React from 'react'
-import ProfilePic from '../images/gh_pic.jpg'
+import { useStaticQuery, graphql } from 'gatsby'
+import Img from 'gatsby-image'
 
 const Home = () => {
+
+  const data = useStaticQuery(graphql`
+    query{
+      image: file(relativePath: { eq: "gh_pic.jpg"}){
+        id
+        childImageSharp{
+          fluid{
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
+
   return (
     <section id="home" className="home-section">
       <div className="home-content">
-        <img className="home-content__image" src={ProfilePic} alt="profile pic"/>
+        <Img className="home-content__image" fluid={data.image.childImageSharp.fluid} />
         <div className="home-content__text-container">
           <h1 className="home-content__greet">Hey, I'm Furkan!</h1>
           <p className="home-content__job-title">Jr. Full Stack JavaScript Developer</p>
           <p className="home-content__about-me">
-            I like to work with modern JavaScript technologies 
+            I like to work with modern JavaScript technologies
             and currently looking for a Junior Web Developer role.
           </p>
           <div className="home-content__cta">

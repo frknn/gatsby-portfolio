@@ -19,7 +19,6 @@ const ProjectsList = () => {
     }
   `)
 
-  console.log('projects arr', data.allProjectsJson.nodes)
   return (
     <div className="projects-card-list">
       {
