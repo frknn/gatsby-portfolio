@@ -1,0 +1,14 @@
+{
+  "title": "NeYesek",
+  "tags": [
+    "React",
+    "NextJS",
+    "ChakraUI",
+    "NodeJS",
+    "ExpressJS",
+    "MongoDB"
+  ],
+  "desc": "A full stack recipe sharing app. You can share your recipes with a photo, search another recipes by name, filter by ingredients, maximum cook time and preparation time. You can also add recipes to your favorites and find them on your profile.\n\nNote: If app crashes the first time you launch, just refresh the page. It is because both of the application and API it consumes deployed on free tier. Heroku has a long cold start and Vercel doesn't wait more than 10 seconds for a function to respond on free tier.",
+  "demoLink": "https://ne-yesek.vercel.app",
+  "codeLink": "https://github.com/frknn/ne-yesek"
+}
