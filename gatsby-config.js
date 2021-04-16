@@ -20,7 +20,8 @@ module.exports = {
       options: {
         fonts: [
           `roboto condensed\:300,400,700`
-        ],
+        ], 
+      }
     },
     `gatsby-transformer-json`,
     {
