@@ -1,11 +1,11 @@
 {
-  "title": "Devcamper API",
-  "desc": "Udemy code along project. REST API for DevCamper app which is a bootcamp directory website. You can list software development bootcamps, courses belong to them and reviews about them. Including authentication and authorization.",
-  "demoLink": "https://devcamper-api.herokuapp.com/",
-  "codeLink": "https://github.com/frknn/devcamper-node-api",
+  "title": "YemekGetir",
+  "desc": ".NET 5 WebAPI project for an imaginary meal ordering app. It has Customer and Restaurant entities. Restaurants can add meals to their menus. Customers can list restaurants with their menus and add products to their carts. A cart can only include products that are from same restaurants. Customers can create orders with their carts and both customers and restaurants can list their orders.",
+  "demoLink": "",
+  "codeLink": "https://github.com/frknn/patika-dotnetcore-yemekgetir-project",
   "tags": [
-    "NodeJS",
-    "ExpressJS",
-    "MongoDB"
+    ".NET 5",
+    "EF Core",
+    "AutoMapper"
   ]
 }
