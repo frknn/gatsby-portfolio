@@ -26,7 +26,7 @@ const Home = () => {
           <p className="home-content__job-title">Software Developer</p>
           <p className="home-content__about-me">
             I like to work with JavaScript technologies
-            and currently improving my skills on .NET.
+            and currently improving my skills on .NET Platform.
           </p>
           <div className="home-content__cta">
             <a className="home-content__btn home-content__btn--primary" href="#projects">projects</a>
