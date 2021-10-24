@@ -23,10 +23,10 @@ const Home = () => {
         <Img className="home-content__image" fluid={data.image.childImageSharp.fluid} />
         <div className="home-content__text-container">
           <h1 className="home-content__greet">Hey, I'm Furkan!</h1>
-          <p className="home-content__job-title">Jr. Full Stack JavaScript Developer</p>
+          <p className="home-content__job-title">Software Developer</p>
           <p className="home-content__about-me">
-            I like to work with modern JavaScript technologies
-            and currently looking for a Junior Web Developer role.
+            I like to work with JavaScript technologies
+            and currently improving my skills on .NET.
           </p>
           <div className="home-content__cta">
             <a className="home-content__btn home-content__btn--primary" href="#projects">projects</a>
